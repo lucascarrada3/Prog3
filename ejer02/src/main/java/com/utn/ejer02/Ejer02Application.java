@@ -1,8 +1,10 @@
-import com.utn.ejer02.Persona;
+package com.utn.ejer02;
+
+import com.utn.ejer02.Entidades.Persona;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
-import repositorios.PersonaRepository;
+import com.utn.ejer02.repositorios.PersonaRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -20,7 +22,7 @@ public class Ejer02Application {
 	@Bean
 	CommandLineRunner init(PersonaRepository personaRepo) {
 		return args -> {
-			System.out.println("-----------------ESTOY FUNCIONANDO---------");
+			System.out.println("-----------------ESTOY FUNCIONANDO--------------");
 			Persona persona = new Persona();
 			persona.setNombre("Juan");
 			persona.setApellido("Pérez");

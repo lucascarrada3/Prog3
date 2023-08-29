@@ -1,6 +1,6 @@
-package repositorios;
+package com.utn.ejer02.repositorios;
 
-import com.utn.ejer02.Persona;
+import com.utn.ejer02.Entidades.Persona;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

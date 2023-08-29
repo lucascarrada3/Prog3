@@ -1,4 +1,4 @@
-package com.utn.ejer02;
+package com.utn.ejer02.Entidades;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
